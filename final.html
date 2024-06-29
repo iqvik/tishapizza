@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finals</title>
+    <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div></div>
+        <div class="omrs-input-group">
+            <label class="omrs-input-filled omrs-input-danger">
+                <input id="nameInput" required>
+                <span class="omrs-input-label">Name</span>
+                <span class="omrs-input-helper">Пожалйста, пишите имя на русском.</span>
+                <i id="nameIcon" class="fa fa-frown-o"></i>
+            </label>
+        </div>
+
+        <div class="omrs-input-group">
+            <label class="omrs-input-filled omrs-input-danger">
+                <input id="roomInput" required>
+                <span class="omrs-input-label">Room</span>
+                <span class="omrs-input-helper">Пожалйста, пишите комнату на русском.</span>
+                <i id="roomIcon" class="fa fa-frown-o"></i>
+            </label>
+        </div>
+
+        <div class="omrs-input-group">
+            <label class="omrs-input-filled omrs-input-danger">
+                <input id="orderInput" required>
+                <span class="omrs-input-label">Order</span>
+                <span class="omrs-input-helper">Введите ID заказа здесь.</span>
+                <i id="orderIcon" class="fa fa-smile-o"></i>
+            </label>
+        </div>
+        
+        <div class="button-2">
+        <button id="sendButton">Send Order</button>
+    </div>
+
+    <div class="button-1">
+        <a href="index.html"></a>
+        <button  id="sendButton">Go home</button>
+    </div>
+
+        <div id="messageBox"></div>
+    </div>
+    <script src="final.js"></script>
+</body>
+</html>
